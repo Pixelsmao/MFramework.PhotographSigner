@@ -4,6 +4,7 @@
 // license that can be found in the LICENSE file or at
 // https://opensource.org/licenses/MIT.
 
+using System;
 using System.ComponentModel;
 using Mediapipe.Tasks.Vision.ImageSegmenter;
 
@@ -29,7 +30,7 @@ namespace Mediapipe.Unity.Sample.ImageSegmentation
     Background = 0,
     Hair = 1,
   }
-
+  
   public class ImageSegmentationConfig
   {
     public Tasks.Core.BaseOptions.Delegate Delegate { get; set; } =
@@ -41,7 +42,7 @@ namespace Mediapipe.Unity.Sample.ImageSegmentation
 
     public ImageReadMode ImageReadMode { get; set; } = ImageReadMode.CPUAsync;
 
-    public ModelType Model { get; set; } = ModelType.HairSegmenter;
+    public ModelType Model { get; set; } = ModelType.SelfieSegmenterLandscape;
     public Tasks.Vision.Core.RunningMode RunningMode { get; set; } = Tasks.Vision.Core.RunningMode.LIVE_STREAM;
 
     public int CategoryIndex {

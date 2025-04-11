@@ -412,6 +412,10 @@ PrefabInstance:
       propertyPath: _maskShader
       value: 
       objectReference: {fileID: 4800000, guid: 30ce68fc8909565718481dab17fb62cd, type: 3}
+    - target: {fileID: 3454231179941771272, guid: 205c1b13c4f71acf5b968f461c41b2a0, type: 3}
+      propertyPath: _maskTexture
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4870111229818662210, guid: 205c1b13c4f71acf5b968f461c41b2a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -835,6 +839,10 @@ PrefabInstance:
       propertyPath: _baseRunner
       value: 
       objectReference: {fileID: 1064799462}
+    - target: {fileID: 8571076843237194837, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8571076843980202029, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
       propertyPath: contents
       value: 
